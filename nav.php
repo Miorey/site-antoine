@@ -6,4 +6,3 @@
 	<a href="diviseurs.php">Programme de diviseurs</a>
 	<a href="calculator.php">Calculatrice</a>
 </nav>
-</html>

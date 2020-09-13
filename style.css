@@ -4,16 +4,15 @@ header {
 	background-color: rgba(15, 15, 20, 250);
 }
 table{
-border: 2px;
-border-color: gray;
+	border: 2px gray;
 }
 
 table.calculatrice{
-	background-color: none;
+	background-color: transparent;
 	margin: 0 auto;
 }
 table.boutons{
-	background-color: none;
+	background-color: transparent;
 	margin: 0 auto;
 }
 td{
@@ -34,7 +33,7 @@ body{
 	text-align: center;
 	color: white;
 	background-color: #253C41;
-	margin-left: 20 px;
+	margin-left: 20px;
 }
 
 #date{
@@ -52,9 +51,8 @@ footer{
 }
 .menu{
 	background-color: white;
-	border : 15px;
-	border-color: white;
-	max-width: 10 px;
+	border: 15px white;
+	max-width: 10px;
 	position: relative;
 }
 .content{

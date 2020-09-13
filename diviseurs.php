@@ -13,12 +13,12 @@
 		<div class = "content">
 			<hr>
 			<h2>Rechercher des diviseurs</h2>
-			<form method="POST" action="Diviseurs.php">
+			<form method="POST" action="diviseurs.php">
 				<label for="nombre">Entrez un nombre</label>
-				<input name="nombre", type="text" placeholder="Ecrivez votre nombre ici">
+				<input name="nombre" type="text" placeholder="Ecrivez votre nombre ici">
 				<br />
 				<label for="diviseur">Entrez un diviseur</label>
-				<input name="diviseur", type="text" placeholder="Ecrivez votre nombre ici">
+				<input name="diviseur" type="text" placeholder="Ecrivez votre nombre ici">
 				<br />
 				<button type="submit" value='Valider' name="valider">valider</button>
 				<button type="Reset" value="Effacer" name="reset">Effacer</button>

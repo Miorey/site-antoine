@@ -42,7 +42,9 @@
 		 	
 			<?php
 			if (isset($_POST['submit']) && isset($_POST['num1']) && isset($_POST['num2']) && isset($_POST['operateur']) ) {
-/*Ca, j'ai pas compris pourquoi il faut le faire*/
+                /*
+                 * Ca, j'ai pas compris pourquoi il faut le faire
+                 */
 				$result1 = $_POST['num1'];
 				$result2 = $_POST['num2'];
 				$fonction = $_POST['operateur'];
@@ -78,6 +80,7 @@
 							else{
 								echo "Division par 0 interdite !";
 							}
+							break;
 						case 'Reste de la division':
 							if ($result2 != 0) {
 								echo "le resultat est = ".($result1%$result2);
@@ -100,4 +103,3 @@
 	</div>
 </body>
 <?php include 'footer.php'?>
-</html>

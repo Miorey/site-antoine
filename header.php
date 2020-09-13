@@ -7,4 +7,3 @@
 	Nous sommes le : 
 	<?php echo date('d/m/y'); ?> 
 </div>
-</html>

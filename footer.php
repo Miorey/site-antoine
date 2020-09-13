@@ -7,4 +7,3 @@
 		c- Antoine Tallon 2020
 	</div> 
 </footer>
-</html>
