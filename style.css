@@ -1,0 +1,105 @@
+
+header {
+	color: white;
+	background-color: rgba(15, 15, 20, 250);
+}
+table{
+border: 2px;
+border-color: gray;
+}
+
+table.calculatrice{
+	background-color: none;
+	margin: 0 auto;
+}
+table.boutons{
+	background-color: none;
+	margin: 0 auto;
+}
+td{
+	height: 2em;
+	width: 200px;
+}
+
+.footer {
+	background-color: grey;
+	width: 100%;
+}
+
+nav{
+	text-align: center;
+}
+
+body{
+	text-align: center;
+	color: white;
+	background-color: #253C41;
+	margin-left: 20 px;
+}
+
+#date{
+	float: right;
+	display: inline-block;
+}
+
+footer{
+	width: 100%;
+	position: absolute;
+	bottom: 0 ;
+}
+#container{
+	
+}
+.menu{
+	background-color: white;
+	border : 15px;
+	border-color: white;
+	max-width: 10 px;
+	position: relative;
+}
+.content{
+	position: relative;
+	/*margin-left: 180px;*/
+}
+form{
+	text-align: center;
+}
+
+button:hover {
+background-color: white;
+color :black;
+
+}
+button{
+	font-size : 1.5em;
+	border-radius: 4px;
+	background-color: #68787C;
+	color:white;
+	border: none;
+}
+input, select{
+	text-align: center;
+	height :2em;
+	font-weight: bold;
+	border-radius: 4px;
+}
+::placeholder{
+	font-style: italic;
+}
+.switch{
+	border-bottom: 1px solid grey;
+	box-shadow: inset 2px 2px 2px 2px #101718;
+	border-radius: 6px;
+	height:50px;
+	vertical-align:middle;
+	line-height: 50px;
+	text-align: center;
+	margin: 0 auto;
+	width: 30%;
+	background-color: #7DB3BF;
+	color: #101718;
+}
+hr{
+	border-top: 2px;
+	border-color: #344A4D;
+}
